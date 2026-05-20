@@ -1,0 +1,346 @@
+/*--BREADCRUMB--*/
+.btn-breadcrumb{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0px;
+    border: 1px solid #ddd !important;
+}
+
+@media (max-width: 767px) {
+    
+    .btn-breadcrumb { 
+        display: flex;
+    }
+
+}
+
+.btn-breadcrumb .btn{
+    border-color: transparent; border: 0px solid transparent;
+    border-right: 1px solid transparent !important; 
+    font-size: 11px;
+}
+
+
+.btn-breadcrumb .btn:after{
+    content: " ";
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 19px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-left: 10px solid #FFF;
+    position: absolute;
+    top: 50%;
+    margin-top: -19px;
+    margin-left: 0px;
+    left: 100%;
+    z-index: 3;
+}
+
+.btn-breadcrumb .btn:before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 19px solid transparent;
+  border-bottom: 19px solid transparent;
+  border-left: 10px solid #ddd;
+  position: absolute;
+  top: 50%;
+  margin-top: -19px;
+  margin-left: 1px;
+  left: 100%;
+  z-index: 3;
+}
+
+.btn-breadcrumb .btn {padding:6px 12px 6px 24px;}
+.btn-breadcrumb .btn:first-child {padding:6px 6px 6px 10px;}
+.btn-breadcrumb .btn:last-child {padding:6px 18px 6px 24px;}
+
+
+@media (max-width: 767px) {
+    .btn-breadcrumb .btn{
+        flex-grow: 1;
+    }
+
+    .btn-breadcrumb .btn:last-child:after{
+        display: none;
+    }
+
+    .btn-breadcrumb .btn:last-child:before{
+        display: none;
+    }
+
+}
+
+
+
+.btn-breadcrumb .btn i{
+    font-size: 20px;
+}
+
+.btn-breadcrumb .btn span{
+    display: block;
+    padding-top: 5px;
+}
+
+@media (max-width: 767px) {
+    .btn-breadcrumb .btn span{
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .btn-breadcrumb .btn:not(:first-child) i{
+        display: none;
+    }
+}
+
+.btn-breadcrumb .btn:last-child:after{margin-left: -2px;}
+.btn-breadcrumb .btn:last-child:before{margin-left: -1px;}
+
+
+
+
+
+
+
+/*--CARD--*/
+.card-event{
+	border: 1px solid #ddd !important;
+    position: relative;
+}
+
+.card-event > .card-event-circle{
+	height: 30px;
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top: -1px;
+    border-top: none;
+    margin-left: -30px;
+    border-radius: 0 0 60px 60px;
+    -moz-border-radius: 0 0 60px 60px;
+    -webkit-border-radius: 0 0 60px 60px;
+    background: #F8F8F8;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.card-event > .card-header{
+    height: 70px;
+    width: 100%;
+    background-color: #FFF !important;
+    border: 0px !important;
+}
+
+.card-event > .card-header > h2{
+	margin-top: 34px;
+    margin-bottom: 13px;
+    font-size: 14px;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-event .card-img {
+    border-radius: 0px !important;
+    height: auto;
+}
+
+
+.card-event > .card-footer {
+	padding: 0px !important;
+    border-top: 0px !important;
+}
+
+.card-event > .card-footer > .btn{
+    border-radius: 0px !important;
+}
+
+
+
+.card-event-location{
+    
+}
+
+.card-event-location .card-body{
+    padding: 0px;
+}
+
+
+.card-event-info .table+.table{
+
+    margin-top: 0px;
+    border-top: 3px solid #ddd;
+
+}
+
+
+/*--- DISTRIBUCIÓN 1 ---*/
+.card-event-details-1{
+	border: 1px solid #ddd !important;
+    position: relative;	
+}
+
+
+.card-event-details-1 > .card-body{
+	padding: 0px !important;
+}
+
+.card-event-details-1 > .card-body > .row{
+
+}
+
+.card-event-details-1 > .card-body > .row > .box-poster{
+}
+
+.card-event-details-1 > .card-body > .row > .box-poster > .box-poster-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (min-width: 992px) {
+    .card-event-details-1 > .card-body > .row > .box-poster > .box-poster-title{
+        display: none;
+    }
+}
+
+
+.card-event-details-1 > .card-body > .row > .box-description{
+    padding-bottom: 10px;
+}
+
+
+@media (min-width: 992px) {
+
+    .card-event-details-1 > .card-body > .row > .box-poster{
+        padding-right: 0px;
+    }
+
+    .card-event-details-1 > .card-body > .row > .box-description{
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
+}
+
+
+.card-event-details-1 > .card-body > .row > .box-description  > .box-description-title{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 991px) {
+    
+    .card-event-details-1 > .card-body > .row > .box-description  > .box-description-title{
+        display: none;
+    }
+
+}
+
+.card-event-details-1 > .card-body > .row > .box-description > .box-description-share{
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding: 10px;
+}
+
+.card-event-details-1 > .card-body > .row > .box-description > .box-description-text{
+    padding: 10px 10px 0px 10px;
+    font-size: 1rem;
+}
+
+.card-event-details-1 > .card-body > .row > .box-description > .box-description-text p:last-child{
+    margin-bottom:0px;
+}
+
+
+.card-event-details-1 > .card-body > .row > .box-description > .box-description-promoter{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ddd;
+    padding: 10px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+.ribbon {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+  z-index: 20;
+}
+.ribbon span {
+  font-size: 9px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#F70505 0%, #8F0808 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+
+
+
+
+
+
+
+.ribbon-discount {
+  position: absolute;
+  left: 0px; top: -1px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon-discount span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#9BC90D 0%, #79A70A 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; left: -21px;
+}
+
+
+
+

@@ -1,0 +1,145 @@
+jQuery(document).ready(function (e) {
+
+	jQuery('[data-toggle="tooltip"]').tooltip()
+
+	setTimeout(function () {
+
+		jQuery('.card .card-header .nav:not(.no-responsive-tabs)').each(function (index) {
+			jQuery(this).responsiveTabs();
+		});
+
+	}, 500);
+
+
+	/*** Empezamos a mostrar la contraseña ***/
+	jQuery('.password').focus(function () {
+		jQuery(this).prop('type', 'text');
+	});
+
+	jQuery('.password').blur(function () {
+		jQuery(this).prop('type', 'password');
+	});
+	/*** Terminamos de mostrar la contraseña ***/
+
+
+
+	/*** Empezamos con el click de agregar cantidad ***/
+	jQuery(document).find('.quantity').each(function () {
+
+		jQuery(this).inputSpinner();
+
+
+	});
+
+	jQuery(document).on('change', '.quantity', function (event) {
+
+		event.preventDefault();
+
+		jQuery(this).removeClass('invalid');
+
+		jQuery(this).parent().find('.input-group input').removeClass('invalid');
+
+	});
+	/*** Terminamos con el click de agregar cantidad ***/
+
+
+
+
+	/*** Empezamos a filtrar solo enteros ***/
+	jQuery(".number").keypress(function (e) {
+		if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+			return false;
+		}
+	});
+	/*** Terminamos de filtrar solo enteros ***/
+
+
+	/*** Evitamos que opriman teclas en el input ***/
+	jQuery('.nokeyboard').keydown(false);
+
+
+
+
+
+
+	jQuery('.modal').on('hidden.bs.modal', function (e) {
+
+		jQuery('.nil', this).each(function () {
+
+			jQuery(this).attr('checked', true);
+
+		});
+
+		jQuery('form', this).each(function () {
+			this.reset();
+			jQuery('span.error', this).remove();
+			jQuery('.invalid', this).removeClass('invalid');
+		});
+
+		jQuery('.modal-footer-loader', this).addClass('d-none');
+		jQuery('.progress-bar', this).css('width', '0%');
+
+	});
+
+
+});
+
+
+
+function now() {
+
+	var dateObj = new Date();
+
+	var curr_date = dateObj.getDate();
+
+	var curr_month = dateObj.getMonth();
+	curr_month = curr_month + 1;
+
+	var curr_year = dateObj.getFullYear();
+
+	var curr_min = dateObj.getMinutes();
+
+	var curr_hr = dateObj.getHours();
+
+	var curr_sc = dateObj.getSeconds();
+
+	if (curr_month.toString().length == 1) {
+		curr_month = '0' + curr_month;
+	}
+
+	if (curr_date.toString().length == 1) {
+		curr_date = '0' + curr_date;
+	}
+
+	if (curr_hr.toString().length == 1) {
+		curr_hr = '0' + curr_hr;
+	}
+
+	if (curr_min.toString().length == 1) {
+		curr_min = '0' + curr_min;
+	}
+
+	if (curr_sc.toString().length == 1) {
+		curr_sc = '0' + curr_sc;
+	}
+
+
+	return curr_year + '-' + curr_month + '-' + curr_date + ' ' + curr_hr + ':' + curr_min + ':' + curr_sc;
+
+
+}
+
+
+
+function toSeoUrl(url) {
+	return url.toString() // Convert to string
+		.normalize('NFD') // Change diacritics
+		.replace(/[\u0300-\u036f]/g, '') // Remove illegal characters
+		.replace(/\s+/g, '-') // Change whitespace to dashes
+		.toLowerCase() // Change to lowercase
+		.replace(/&/g, '-and-') // Replace ampersand
+		.replace(/[^a-z0-9\-]/g, '') // Remove anything that is not a letter, number or dash
+		.replace(/-+/g, '-') // Remove duplicate dashes
+		.replace(/^-*/, '') // Remove starting dashes
+		.replace(/-*$/, ''); // Remove trailing dashes
+}

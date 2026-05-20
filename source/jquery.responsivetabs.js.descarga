@@ -1,0 +1,191 @@
+(function ($) {
+
+    function build($ul) {
+
+        var id = $ul.attr('id');
+        var $dropdown = '';
+
+        $ul.parent().attr('id', id + 'Parent');
+
+        $tabs = $ul.find('li');
+
+        var width = 0;
+
+        $tabs.each(function () {
+            var w = jQuery(this).outerWidth(true);
+            width = width + w;
+        });
+
+        $ul.data('width', width);
+
+        $dropdown += '<div class="nav">';
+        $dropdown += '<div id="' + id + 'Dropdown" class="dropdown dropdown-responsiveClass w-100 d-none">';
+        $dropdown += '<button class="btn btn-secondary hamburger float-right" type="button" id="' + id + 'DropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+        $dropdown += '<span class="hamburger-box">';
+        $dropdown += '<span class="hamburger-inner"></span>';
+        $dropdown += '</span>';
+        $dropdown += '</button>';
+        $dropdown += '<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="' + id + 'DropdownButton" role="tablist">';
+
+        $tabs.each(function () {
+            var a = jQuery(this).find('a');
+            var active = a.hasClass('active') ? 'active' : '';
+            var attributes = '';
+
+            if (a.data('toggle') == 'tab') {
+                attributes += ' data-toggle="tab"';
+            }
+            if (a.attr('role') == 'tab') {
+                attributes += ' role="tab"';
+            }
+            if (a.attr('aria-controls') != '') {
+                attributes += ' aria-controls="' + a.attr('aria-controls') + '"';
+            }
+            if (a.attr('aria-selected') == 'true') {
+                attributes += ' aria-true="true"';
+            }
+
+            $dropdown += '<a class="dropdown-item ' + active + '" href="' + a.attr('href') + '"' + attributes + '>';
+            $dropdown += a.html();
+            $dropdown += '</a>';
+        });
+
+        $dropdown += '</ul>';
+        $dropdown += '</div>';
+        $dropdown += '</div>';
+
+        jQuery('#' + id + 'Parent').append($dropdown);
+
+        // Función para el menú desktop para actualizar el menú mobile
+        jQuery(document).on('click', '#' + id + ' .nav-item .nav-link', function (event) {
+            var href = jQuery(this).attr('href');
+            var pattern = new RegExp('^(https?:\\/\\/)?' +
+                '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' +
+                '((\\d{1,3}\\.){3}\\d{1,3}))' +
+                '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' +
+                '(\\?[;&a-z\\d%_.~+=-]*)?' +
+                '(\\#[-a-z\\d_]*)?$', 'i');
+
+            if (!pattern.test(href)) {
+                event.preventDefault();
+            }
+
+            jQuery('#' + id + 'Dropdown').find('.dropdown-menu > a').each(function (index) {
+                if (href == jQuery(this).attr('href')) {
+                    jQuery(this).addClass('active');
+                } else {
+                    jQuery(this).removeClass('active');
+                }
+            });
+        });
+
+        // Función para el menú mobile para actualizar el menú desktop
+        jQuery(document).on('click', '.dropdown-responsiveClass .dropdown-item', function (event) {
+            var href = jQuery(this).attr('href');
+            var pattern = new RegExp('^(https?:\\/\\/)?' +
+                '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' +
+                '((\\d{1,3}\\.){3}\\d{1,3}))' +
+                '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' +
+                '(\\?[;&a-z\\d%_.~+=-]*)?' +
+                '(\\#[-a-z\\d_]*)?$', 'i');
+
+            if (!pattern.test(href)) {
+                event.preventDefault();
+            } else {
+                if (jQuery('#app-preloader').length) {
+                    event.preventDefault();
+                    $enlace = href;
+                    jQuery('#app-preloader').fadeIn(100, function () {
+                        window.location.href = $enlace;
+                    });
+                }
+            }
+
+            jQuery(this).parent().find('.dropdown-item').each(function (index) {
+                jQuery(this).removeClass('active');
+            });
+
+            jQuery('#' + id).find('.nav-item > a').each(function (index) {
+                if (href == jQuery(this).attr('href')) {
+                    jQuery(this).addClass('active');
+                } else {
+                    jQuery(this).removeClass('active');
+                }
+            });
+
+            jQuery(this).addClass('active');
+        });
+    }
+
+    function makeid(length) {
+        var result = '';
+        var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        var charactersLength = characters.length;
+        for (var i = 0; i < length; i++) {
+            result += characters.charAt(Math.floor(Math.random() * charactersLength));
+        }
+        return result;
+    }
+
+    function responsive($ul) {
+        var id = $ul.attr('id');
+        var min = $ul.data('min');
+
+        if (min !== undefined) {
+            var windowWidth = jQuery(window).width();
+
+            if (windowWidth < min) {
+                $ul.addClass('d-none');
+                $ul.parent().removeClass('pb-0');
+                jQuery('#' + $ul.attr('id') + 'Dropdown').removeClass('d-none');
+            } else {
+                if ($ul.data('width') >= $ul.parent().outerWidth(true)) {
+                    $ul.addClass('d-none');
+                    $ul.parent().removeClass('pb-0');
+                    jQuery('#' + $ul.attr('id') + 'Dropdown').removeClass('d-none');
+                } else {
+                    jQuery('#' + $ul.attr('id') + 'Dropdown').addClass('d-none');
+                    $ul.removeClass('d-none');
+                    $ul.parent().addClass('pb-0');
+                }
+            }
+        } else {
+            if ($ul.data('width') >= $ul.parent().outerWidth(true)) {
+                $ul.addClass('d-none');
+                $ul.parent().removeClass('pb-0');
+                jQuery('#' + $ul.attr('id') + 'Dropdown').removeClass('d-none');
+            } else {
+                jQuery('#' + $ul.attr('id') + 'Dropdown').addClass('d-none');
+                $ul.removeClass('d-none');
+                $ul.parent().addClass('pb-0');
+            }
+        }
+    }
+
+    jQuery.fn.responsiveTabs = function () {
+        this.each(function () {
+            var id = jQuery(this).attr('id');
+            if (id == undefined) {
+                id = 'navTabs' + makeid(15);
+                jQuery(this).attr('id', id);
+            }
+
+            var $navtabs = jQuery('#' + id);
+            setTimeout(function () {
+                build($navtabs);
+            }, 20);
+
+            setTimeout(function () {
+                responsive($navtabs);
+            }, 100);
+
+            jQuery(window).resize(function () {
+                responsive($navtabs);
+            });
+        });
+
+        return this;
+    };
+
+})(jQuery);
+
