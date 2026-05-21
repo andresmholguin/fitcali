@@ -78,7 +78,7 @@ const eventos = {
       nombre_evento: "Cementerio de elefantes",
       fecha_hora_evento: "6 de junio de 2026 a las 5:00 p.m.",
       lugar: "Domus Teatro",
-      grupo: "La navaja de Ockam - Bogotá",
+      grupo: "La navaja de Ockham - Bogotá",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345513/MINIATURA_cementerio_de_elefantes_lph4an.png",
       urlEvent:
