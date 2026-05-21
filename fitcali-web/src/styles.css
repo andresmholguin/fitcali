@@ -1,0 +1,40 @@
+body {
+  background: #f5f5f5;
+}
+
+#wrapper-frame {
+  padding: 40px 0;
+}
+
+.custom-event-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+.custom-event-card .card-header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.custom-event-card h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.custom-event-card .card-img {
+  width: 100%;
+  display: block;
+}
+
+.custom-event-table td {
+  vertical-align: middle;
+}
+
+.custom-event-table .table-active {
+  background: #f8f9fa;
+}
+
+.custom-event-card .btn-primary {
+  border-radius: 8px;
+}
