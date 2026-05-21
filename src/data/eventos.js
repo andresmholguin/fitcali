@@ -178,7 +178,8 @@ const eventos = {
       nombre_evento: "Habitación Macbeth",
       fecha_hora_evento: "11 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_habitacion_macbeth_msjlos.png",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-habitacion-macbeth-2966.aspx",
     },
@@ -258,7 +259,8 @@ const eventos = {
       nombre_evento: "Solas en el paraíso",
       fecha_hora_evento: "14 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_solas_en_el_paraiso_d9b4ro.png",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-solas-en-el-paraiso-2980.aspx",
     },
