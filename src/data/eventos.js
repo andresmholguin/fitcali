@@ -6,7 +6,8 @@ const eventos = {
       lugar: "Cali Teatro",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779325716/min_1_q4pdrs.png",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-pas-ajerx-no-se-siente-aqui-2940.aspx",
     },
     {
       nombre_evento: "De cara al río",
