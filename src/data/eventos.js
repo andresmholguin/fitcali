@@ -169,7 +169,7 @@ const eventos = {
       nombre_evento: "Vida morte",
       fecha_hora_evento: "9 de junio de 2026 a las 7:30 p.m.",
       lugar: "Cali Teatro",
-      grupo: "Colectvo de danza en pié - Cali",
+      grupo: "Colectivo de danza en pié - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_vida_morte_d9ykug.png",
       urlEvent:
@@ -343,7 +343,7 @@ const eventos = {
       lugar: "Colectivo Teatral Infinito",
       grupo: "La SMH Studios - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_tom_tom_the_pipers_son_jc6zna.webp",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_tom_tom_the_pipers_son_jc6zna.webp{´ñññññññññc    v.-",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-tom-tom-the-piper-s-son-2942.aspx",
     },
