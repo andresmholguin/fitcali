@@ -415,7 +415,7 @@ const eventos = {
       lugar: "Teatro Esquina Latina",
       grupo: "Teatro del cómplice - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345513/MINIATURA_el_flautista_de_las_ratas_pkwtl0.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345513/MINIATURA_el_flautista_de_las_ratas_pkwtl0.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-el-flautista-de-las-ratas-2935.aspx?v=2",
     },
