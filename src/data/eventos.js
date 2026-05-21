@@ -463,7 +463,7 @@ const eventos = {
       nombre_evento: "Retazos",
       fecha_hora_evento: "14 de junio de 2026 a las 4:00 p.m.",
       lugar: "Colectivo Teatral Infinito",
-      grupo: "",
+      grupo: "Pazajeros colectivo pedagógico y teatral - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_retazos_jwf5c6.png",
       urlEvent:
