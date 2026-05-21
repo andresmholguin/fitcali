@@ -343,7 +343,7 @@ const eventos = {
       lugar: "Colectivo Teatral Infinito",
       grupo: "La SMH Studios - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_tom_tom_the_pipers_son_jc6zna.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_tom_tom_the_pipers_son_jc6zna.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-tom-tom-the-piper-s-son-2942.aspx",
     },
@@ -363,7 +363,7 @@ const eventos = {
       lugar: "Colectivo Teatral Infinito",
       grupo: "La SMH Studios - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_tom_tom_the_pipers_son_jc6zna.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_tom_tom_the_pipers_son_jc6zna.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-tom-tom-the-piper-s-son-2951.aspx",
     },
