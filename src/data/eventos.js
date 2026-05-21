@@ -291,7 +291,7 @@ const eventos = {
       lugar: "Teatro Municipal Enrique Buenaventua",
       grupo: "Cabra Teatro y Teatro El Paso - Bolivia - Colombia",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_solas_en_el_paraiso_d9b4ro.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779389649/MINIATURA_solas_en_el_paraiso_estqnj.png",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-solas-en-el-paraiso-2974.aspx",
     },
@@ -301,7 +301,7 @@ const eventos = {
       lugar: "Teatro Municipal Enrique Buenaventua",
       grupo: "Cabra Teatro y Teatro El Paso - Bolivia - Colombia",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_solas_en_el_paraiso_d9b4ro.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779389649/MINIATURA_solas_en_el_paraiso_estqnj.png",
       urlEvent:
         "https://www.colboletos.com/event/clausura-fitcali-2026-solas-en-el-paraiso-2980.aspx",
     },
