@@ -14,7 +14,8 @@ const eventos = {
       lugar: "Teatro Espacio T",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779325890/min_de_cara_al_rio_dxlybj.png",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-de-cara-al-rio-2972.aspx",
     },
   ],
   "Enfoque de género": [
@@ -37,14 +38,16 @@ const eventos = {
       fecha_hora_evento: "13 de junio de 2026 a las 6:00 p.m.",
       lugar: "Teatro esquina Latina",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-los-volcanes-no-explotan-en-silencio-2975.aspx",
     },
     {
       nombre_evento: "Mujeres en la niebla",
       fecha_hora_evento: "13 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro La Máscara",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-mujeres-en-la-niebla-2976.aspx",
     },
   ],
   "Público general": [
@@ -162,14 +165,16 @@ const eventos = {
       fecha_hora_evento: "11 de junio de 2026 a las 7:00 p.m.",
       lugar: "Casa de los títeres",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-la-casa-el-lugar-donde-todo-comienza-2969.aspx",
     },
     {
       nombre_evento: "Más allá del horizonte",
       fecha_hora_evento: "11 de junio de 2026 a las 7:00 p.m.",
       lugar: "Colectivo Teatral Infinito",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-mas-alla-del-horizonte-2968.aspx",
     },
     {
       nombre_evento: "Ala´ala Y Juya",
@@ -183,42 +188,48 @@ const eventos = {
       fecha_hora_evento: "11 de junio de 2026 a las 7:30 p.m.",
       lugar: "Cali Teatro",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-la-felicidad-en-un-kilo-o-las-voces-que-me-abrazan-2970.aspx",
     },
     {
       nombre_evento: "Más allá del horizonte",
       fecha_hora_evento: "12 de junio de 2026 a las 7:00 p.m.",
       lugar: "Colectivo Teatral Infinito",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-mas-alla-del-horizonte-2971.aspx",
     },
     {
       nombre_evento: "Gente de Chonta",
       fecha_hora_evento: "12 de junio de 2026 a las 8:00 p.m.",
       lugar: "Cali Teatro",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-gente-de-chonta-2973.aspx",
     },
     {
       nombre_evento: "Gente de Chonta",
       fecha_hora_evento: "13 de junio de 2026 a las 8:00 p.m.",
       lugar: "Cali Teatro",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-gente-de-chonta-2979.aspx",
     },
     {
       nombre_evento: "Solas en el paraíso",
       fecha_hora_evento: "13 de junio de 2026 a las 9:00 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-solas-en-el-paraiso-2974.aspx",
     },
     {
       nombre_evento: "Solas en el paraíso",
       fecha_hora_evento: "14 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-solas-en-el-paraiso-2980.aspx",
     },
   ],
   "Públicos especializados": [
@@ -320,28 +331,32 @@ const eventos = {
       fecha_hora_evento: "13 de junio de 2026 a las 5:00 p.m.",
       lugar: "Teatro El Telón",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-de-mieles-y-otros-saberes-2978.aspx",
     },
     {
       nombre_evento: "Hermanos para toda la vida",
       fecha_hora_evento: "13 de junio de 2026 a las 5:00 p.m.",
       lugar: "Casa de los títeres",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-hermanos-para-toda-la-vida-2977.aspx",
     },
     {
       nombre_evento: "Retazos",
       fecha_hora_evento: "14 de junio de 2026 a las 4:00 p.m.",
       lugar: "Colectivo Teatral Infinito",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-retazos-2981.aspx",
     },
     {
       nombre_evento: "Otro cuento de los hermanos Grimm",
       fecha_hora_evento: "14 de junio de 2026 a las 5:00 p.m.",
       lugar: "Teatro Espacio T",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-otro-cuento-de-los-hermanos-grimm-2982.aspx",
     },
   ],
 };

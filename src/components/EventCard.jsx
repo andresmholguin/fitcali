@@ -18,7 +18,7 @@ export default function EventCard({ evento }) {
           <tbody>
             <tr>
               <td className="table-active text-center">
-                <strong>FECHA</strong>
+                <strong>FECHA Y HORA</strong>
               </td>
             </tr>
 
