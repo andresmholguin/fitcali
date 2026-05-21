@@ -33,7 +33,7 @@ const eventos = {
     },
     {
       nombre_evento: "Ni mierda pal perro",
-      fecha_hora_evento: "8 de junio de 2026 a las 6:00 p.m.",
+      fecha_hora_evento: "8 de junio de 2026 a las 6:30 p.m.",
       lugar: "Teatro Esquina Latina",
       grupo: "Ditirambo Teatro - Bogotá",
       imgUrl:
