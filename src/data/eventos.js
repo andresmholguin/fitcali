@@ -58,6 +58,16 @@ const eventos = {
   ],
   "Público general": [
     {
+      nombre_evento:
+        "INAUGURACION / LAS ARMAS MILAGROSAS: SEIS PERSONAJES EN BUSCA DE EXISTENCIA",
+      fecha_hora_evento: "4 de junio de 2026 a las 7:30 p.m.",
+      lugar: "Teatro Municipal Enrique Buenaventua",
+      imgUrl:
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_armas_milagrosas_kdh3yl.png",
+      urlEvent:
+        "https://www.colboletos.com/event/inauguracion-fitacali-2026-las-armas-milagrosas-seis-personajes-en-busca-de-existencia-2931.aspx",
+    },
+    {
       nombre_evento: "Cementerio de elefantes",
       fecha_hora_evento: "6 de junio de 2026 a las 5:00 p.m.",
       lugar: "Domus Teatro",
@@ -257,13 +267,13 @@ const eventos = {
         "https://www.colboletos.com/event/fitcali-2026-solas-en-el-paraiso-2974.aspx",
     },
     {
-      nombre_evento: "Solas en el paraíso",
+      nombre_evento: "CLAUSURA / Solas en el paraíso",
       fecha_hora_evento: "14 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_solas_en_el_paraiso_d9b4ro.png",
       urlEvent:
-        "https://www.colboletos.com/event/fitcali-2026-solas-en-el-paraiso-2980.aspx",
+        "https://www.colboletos.com/event/clausura-fitcali-2026-solas-en-el-paraiso-2980.aspx",
     },
   ],
   "Públicos especializados": [
