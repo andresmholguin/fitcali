@@ -229,7 +229,7 @@ const eventos = {
       nombre_evento: "Más allá del horizonte",
       fecha_hora_evento: "11 de junio de 2026 a las 7:00 p.m.",
       lugar: "Colectivo Teatral Infinito",
-      grupo: "Oxymorón - Cali",
+      grupo: "Oxymorom - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_mas_alla_del_horizonte_zcilqn.png",
       urlEvent:
@@ -259,7 +259,7 @@ const eventos = {
       nombre_evento: "Más allá del horizonte",
       fecha_hora_evento: "12 de junio de 2026 a las 7:00 p.m.",
       lugar: "Colectivo Teatral Infinito",
-      grupo: "Oxymorón - Cali",
+      grupo: "Oxymorom - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_mas_alla_del_horizonte_zcilqn.png",
       urlEvent:
