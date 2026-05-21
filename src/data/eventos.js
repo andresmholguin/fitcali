@@ -80,7 +80,7 @@ const eventos = {
     },
     {
       nombre_evento: "Yo no estoy loca",
-      fecha_hora_evento: "6 de junio de 2026 a las 7:30 p.m.",
+      fecha_hora_evento: "6 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_yo_no_estoy_loca_bkh3ms.png",
