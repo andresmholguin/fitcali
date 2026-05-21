@@ -90,7 +90,7 @@ const eventos = {
       lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
       grupo: "Teatro Petra - Bogotá",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_yo_no_estoy_loca_bkh3ms.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_yo_no_estoy_loca_bkh3ms.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-yo-no-estoy-loca-2934.aspx",
     },
@@ -111,7 +111,7 @@ const eventos = {
       lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
       grupo: "Teatro Petra - Bogotá",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_yo_no_estoy_loca_bkh3ms.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_yo_no_estoy_loca_bkh3ms.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-yo-no-estoy-loca-2941.aspx",
     },
