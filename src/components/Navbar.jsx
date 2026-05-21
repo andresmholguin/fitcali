@@ -7,6 +7,7 @@ export default function Navbar() {
         height: "100px",
         backgroundColor: "#000",
         overflow: "hidden",
+        borderBottom: "8px solid #fec309",
       }}
     >
       <a href="https://www.colboletos.com">
