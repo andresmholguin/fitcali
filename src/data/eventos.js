@@ -143,7 +143,8 @@ const eventos = {
       lugar: "Cali Teatro",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779328427/de_retorno_al_Baobab_mini_fyme3z.png",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-de-retorno-al-baobab-2965.aspx",
     },
     {
       nombre_evento: "La escuela de las mujeres",
@@ -158,7 +159,8 @@ const eventos = {
       fecha_hora_evento: "11 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-habitacion-macbeth-2966.aspx",
     },
     {
       nombre_evento: "La Casa... El lugar donde todo comienza",
@@ -181,7 +183,8 @@ const eventos = {
       fecha_hora_evento: "11 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-ala-ala-y-juya-2967.aspx",
     },
     {
       nombre_evento: "La felicidad en un kilo o las voces que me abrazan",
