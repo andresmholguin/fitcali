@@ -14,7 +14,7 @@ const eventos = {
       nombre_evento: "De cara al río",
       fecha_hora_evento: "12 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatro Espacio T",
-      grupo: "Casa Experimental - Cali",
+      grupo: "Casa Experiment - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779325890/min_de_cara_al_rio_dxlybj.png",
       urlEvent:
@@ -26,6 +26,7 @@ const eventos = {
       nombre_evento: "Lobas",
       fecha_hora_evento: "6 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro La Máscara",
+      grupo: "Teatro La Máscara - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345513/MINIATURA_lobas_mkf2po.png",
       urlEvent: "https://www.colboletos.com/event/fitcali-2026-lobas-2936.aspx",
@@ -34,6 +35,7 @@ const eventos = {
       nombre_evento: "Ni mierda pal perro",
       fecha_hora_evento: "8 de junio de 2026 a las 6:00 p.m.",
       lugar: "Teatro Esquina Latina",
+      grupo: "Ditirambo Teatro - Bogotá",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345511/MINIATURA_ni_mierda_el_perro_sigrma.png",
       urlEvent:
@@ -43,6 +45,7 @@ const eventos = {
       nombre_evento: "Los volcanes no explotan en silencio",
       fecha_hora_evento: "13 de junio de 2026 a las 6:00 p.m.",
       lugar: "Teatro esquina Latina",
+      grupo: "Compañía teatral Canto de Ballenas - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_los_volcanes_no_explotan_en_silencio_edhmyr.png",
       urlEvent:
@@ -52,6 +55,7 @@ const eventos = {
       nombre_evento: "Mujeres en la niebla",
       fecha_hora_evento: "13 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro La Máscara",
+      grupo: "Teatro Estudio TECAL - Calarcá",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_mujer_en_la_niebla_m9ashh.png",
       urlEvent:
@@ -64,6 +68,7 @@ const eventos = {
         "INAUGURACION / LAS ARMAS MILAGROSAS: SEIS PERSONAJES EN BUSCA DE EXISTENCIA",
       fecha_hora_evento: "4 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
+      grupo: "Corpo Rastreado - Brasil",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_armas_milagrosas_kdh3yl.png",
       urlEvent:
@@ -73,6 +78,7 @@ const eventos = {
       nombre_evento: "Cementerio de elefantes",
       fecha_hora_evento: "6 de junio de 2026 a las 5:00 p.m.",
       lugar: "Domus Teatro",
+      grupo: "La navaja de Ockam - Bogotá",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345513/MINIATURA_cementerio_de_elefantes_lph4an.png",
       urlEvent:
@@ -82,6 +88,7 @@ const eventos = {
       nombre_evento: "Yo no estoy loca",
       fecha_hora_evento: "6 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
+      grupo: "Teatro Petra - Bogotá",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_yo_no_estoy_loca_bkh3ms.png",
       urlEvent:
@@ -92,6 +99,7 @@ const eventos = {
         "Las armas milagrosas: seis personajes en busca de existencia",
       fecha_hora_evento: "6 de junio de 2026 a las 9:00 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
+      grupo: "Corpo Rastreado - Brasil",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_armas_milagrosas_kdh3yl.png",
       urlEvent:
@@ -101,6 +109,7 @@ const eventos = {
       nombre_evento: "Yo no estoy loca",
       fecha_hora_evento: "7 de junio de 2026 a las 5:00 p.m.",
       lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
+      grupo: "Teatro Petra - Bogotá",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_yo_no_estoy_loca_bkh3ms.png",
       urlEvent:
@@ -110,6 +119,7 @@ const eventos = {
       nombre_evento: "Antígona la necia",
       fecha_hora_evento: "7 de junio de 2026 a las 9:00 p.m.",
       lugar: "Teatro La Máscara",
+      grupo: "Teatro del bardo - Argentina",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_antigona_la_necia_p5gc2z.png",
       urlEvent:
@@ -119,6 +129,7 @@ const eventos = {
       nombre_evento: "En la diestra de Dios padre",
       fecha_hora_evento: "8 de junio de 2026 a las 5:00 p.m.",
       lugar: "Casa de los títeres",
+      grupo: "Corporación Teatro de Muñecos La Loca Compañía - Armenia",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345511/MINIATURA_en_la_diestra_de_dios_gx8p5b.png",
       urlEvent:
@@ -128,6 +139,7 @@ const eventos = {
       nombre_evento: "Murmuria",
       fecha_hora_evento: "8 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
+      grupo: "Compañía Cortocinesis - Mariquita Tolima",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345511/MINIATURA_murmuria_m1ppwz.png",
       urlEvent:
@@ -137,6 +149,7 @@ const eventos = {
       nombre_evento: "Antígona la necia",
       fecha_hora_evento: "8 de junio de 2026 a las 8:00 p.m.",
       lugar: "Teatro La Máscara",
+      grupo: "Teatro del bardo - Argentina",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_antigona_la_necia_p5gc2z.png",
       urlEvent:
@@ -146,6 +159,7 @@ const eventos = {
       nombre_evento: "El evangelio de una patria boba",
       fecha_hora_evento: "9 de junio de 2026 a las 7:00 p.m.",
       lugar: "Casa de los títeres",
+      grupo: "Colectivo teatral perro azul - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_el_evangelio_de_una_patria_boba_m76ltu.png",
       urlEvent:
@@ -155,6 +169,7 @@ const eventos = {
       nombre_evento: "Vida morte",
       fecha_hora_evento: "9 de junio de 2026 a las 7:30 p.m.",
       lugar: "Cali Teatro",
+      grupo: "Colectvo de danza en pié - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_vida_morte_d9ykug.png",
       urlEvent:
@@ -164,6 +179,7 @@ const eventos = {
       nombre_evento: "Habitación Macbeth",
       fecha_hora_evento: "9 de junio de 2026 a las 8:00 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
+      grupo: "Pompeyo Audivert - Argentina",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_habitacion_macbeth_msjlos.png",
       urlEvent:
@@ -173,6 +189,7 @@ const eventos = {
       nombre_evento: "De retorno al baobab",
       fecha_hora_evento: "10 de junio de 2026 a las 7:00 p.m.",
       lugar: "Cali Teatro",
+      grupo: "Compañía artística Caña Flecha - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779328427/de_retorno_al_Baobab_mini_fyme3z.png",
       urlEvent:
@@ -182,6 +199,7 @@ const eventos = {
       nombre_evento: "La escuela de las mujeres",
       fecha_hora_evento: "10 de junio de 2026 a las 8:00 p.m.",
       lugar: "Teatro Esquina Latina",
+      grupo: "Maderos Teatro - Valledupar",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779328238/ESCUELA_MIN_r0zvcv.png",
       urlEvent:
@@ -191,6 +209,7 @@ const eventos = {
       nombre_evento: "Habitación Macbeth",
       fecha_hora_evento: "11 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
+      grupo: "Pompeyo Audivert - Argentina",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_habitacion_macbeth_msjlos.png",
       urlEvent:
@@ -200,6 +219,7 @@ const eventos = {
       nombre_evento: "La Casa... El lugar donde todo comienza",
       fecha_hora_evento: "11 de junio de 2026 a las 7:00 p.m.",
       lugar: "Casa de los títeres",
+      grupo: "Proyecto La Casa - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_la_casa_el_lugar_donde_todo_comienza_ipx9km.png",
       urlEvent:
@@ -209,6 +229,7 @@ const eventos = {
       nombre_evento: "Más allá del horizonte",
       fecha_hora_evento: "11 de junio de 2026 a las 7:00 p.m.",
       lugar: "Colectivo Teatral Infinito",
+      grupo: "Oxymorón - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_mas_alla_del_horizonte_zcilqn.png",
       urlEvent:
@@ -218,6 +239,7 @@ const eventos = {
       nombre_evento: "Ala´ala Y Juya",
       fecha_hora_evento: "11 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
+      grupo: "Corporación cultural Jayeechi - Riohacha",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_ala_ala_y_jayu_azocgx.png",
       urlEvent:
@@ -227,6 +249,7 @@ const eventos = {
       nombre_evento: "La felicidad en un kilo o las voces que me abrazan",
       fecha_hora_evento: "11 de junio de 2026 a las 7:30 p.m.",
       lugar: "Cali Teatro",
+      grupo: "Teatro La Farola - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_la_felicidad_de_un_kilo_t55z5j.png",
       urlEvent:
@@ -236,6 +259,7 @@ const eventos = {
       nombre_evento: "Más allá del horizonte",
       fecha_hora_evento: "12 de junio de 2026 a las 7:00 p.m.",
       lugar: "Colectivo Teatral Infinito",
+      grupo: "Oxymorón - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_mas_alla_del_horizonte_zcilqn.png",
       urlEvent:
@@ -245,6 +269,7 @@ const eventos = {
       nombre_evento: "Gente de Chonta",
       fecha_hora_evento: "12 de junio de 2026 a las 8:00 p.m.",
       lugar: "Cali Teatro",
+      grupo: "Movimiento en colectivo (MEC) - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_gente_de_chonta_hhyx7p.png",
       urlEvent:
@@ -254,6 +279,7 @@ const eventos = {
       nombre_evento: "Gente de Chonta",
       fecha_hora_evento: "13 de junio de 2026 a las 8:00 p.m.",
       lugar: "Cali Teatro",
+      grupo: "Movimiento en colectivo (MEC) - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_gente_de_chonta_hhyx7p.png",
       urlEvent:
@@ -263,6 +289,7 @@ const eventos = {
       nombre_evento: "Solas en el paraíso",
       fecha_hora_evento: "13 de junio de 2026 a las 9:00 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
+      grupo: "Cabra Teatro y Teatro El Paso - Bolivia - Colombia",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_solas_en_el_paraiso_d9b4ro.png",
       urlEvent:
@@ -272,6 +299,7 @@ const eventos = {
       nombre_evento: "CLAUSURA / Solas en el paraíso",
       fecha_hora_evento: "14 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
+      grupo: "Cabra Teatro y Teatro El Paso - Bolivia - Colombia",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_solas_en_el_paraiso_d9b4ro.png",
       urlEvent:
@@ -283,6 +311,7 @@ const eventos = {
       nombre_evento: "Incendios",
       fecha_hora_evento: "5 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatro Espacio T",
+      grupo: "Elemental Teatro - Medellín",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_incendios_dnchul.png",
       urlEvent:
@@ -292,6 +321,7 @@ const eventos = {
       nombre_evento: "Incendios",
       fecha_hora_evento: "6 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatro Espacio T",
+      grupo: "Elemental Teatro - Medellín",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_incendios_dnchul.png",
       urlEvent:
@@ -301,6 +331,7 @@ const eventos = {
       nombre_evento: "Juicio entre las sombras o la verdad del más allá",
       fecha_hora_evento: "6 de junio de 2026 a las 7:30 p.m.",
       lugar: "Colectivo Teatral Infinito",
+      grupo: "Colectivo Teatral Infinito - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345513/MINIATURA_juicio_entre_las_sombras_sjsydt.png",
       urlEvent:
@@ -310,6 +341,7 @@ const eventos = {
       nombre_evento: "Tom Tom the Piper´s son",
       fecha_hora_evento: "7 de junio de 2026 a las 6:30 a.m.",
       lugar: "Colectivo Teatral Infinito",
+      grupo: "La SMH Studios - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_tom_tom_the_pipers_son_jc6zna.png",
       urlEvent:
@@ -319,6 +351,7 @@ const eventos = {
       nombre_evento: "Silencio en el alba",
       fecha_hora_evento: "8 de junio de 2026 a las 5:00 p.m.",
       lugar: "Domus Teatro",
+      grupo: "Teatro Casa Naranja - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_silencio_en_el_alba_pvjjm9.png",
       urlEvent:
@@ -328,6 +361,7 @@ const eventos = {
       nombre_evento: "Tom Tom the Piper´s son",
       fecha_hora_evento: "8 de junio de 2026 a las 6:30 p.m.",
       lugar: "Colectivo Teatral Infinito",
+      grupo: "La SMH Studios - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_tom_tom_the_pipers_son_jc6zna.png",
       urlEvent:
@@ -337,6 +371,7 @@ const eventos = {
       nombre_evento: "Boca de ceniza",
       fecha_hora_evento: "9 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro El Telón",
+      grupo: "Aescena - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_boca_de_ceniza_c9m1rv.png",
       urlEvent:
@@ -346,6 +381,7 @@ const eventos = {
       nombre_evento: "Las hermanas - poética de una barbarie",
       fecha_hora_evento: "9 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro Espacio T",
+      grupo: "Corporación Amphitheatrum - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_las_hermanas_poetica_de_una_barbarie_mfxkex.png",
       urlEvent:
@@ -355,6 +391,7 @@ const eventos = {
       nombre_evento: "Corona, ilusión y sangre",
       fecha_hora_evento: "10 de junio de 2026 a las 5:30 p.m.",
       lugar: "Domus Teatro",
+      grupo: "Combustible fósil - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_corona_ilusion_sangre_jhejps.png",
       urlEvent:
@@ -364,6 +401,7 @@ const eventos = {
       nombre_evento: "Las hermanas - poética de una barbarie",
       fecha_hora_evento: "10 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro Espacio T",
+      grupo: "Corporación Amphitheatrum - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_las_hermanas_poetica_de_una_barbarie_mfxkex.png",
       urlEvent:
@@ -375,6 +413,7 @@ const eventos = {
       nombre_evento: "El flautista de las ratas",
       fecha_hora_evento: "6 de junio de 2026 a las 5:00 p.m.",
       lugar: "Teatro Esquina Latina",
+      grupo: "Teatro del cómplice - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345513/MINIATURA_el_flautista_de_las_ratas_pkwtl0.png",
       urlEvent:
@@ -384,6 +423,7 @@ const eventos = {
       nombre_evento: "Crayones",
       fecha_hora_evento: "7 de junio de 2026 a las 11:00 a.m.",
       lugar: "Teatro El Telón",
+      grupo: "Petit Teatro - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_crayones_tslruf.png",
       urlEvent:
@@ -393,6 +433,7 @@ const eventos = {
       nombre_evento: "De borondo por Cali la sucursal del amor",
       fecha_hora_evento: "7 de junio de 2026 a las 11:00 a.m.",
       lugar: "Teatro del Presagio",
+      grupo: "Teatro del Presagio - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_de_borondo_por_cali_eqhgqv.png",
       urlEvent:
@@ -402,6 +443,7 @@ const eventos = {
       nombre_evento: "De mieles y otros saberes",
       fecha_hora_evento: "13 de junio de 2026 a las 5:00 p.m.",
       lugar: "Teatro El Telón",
+      grupo: "Tierra # 5 - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_de_mieles_y_otros_sabores_no1ptp.png",
       urlEvent:
@@ -411,6 +453,7 @@ const eventos = {
       nombre_evento: "Hermanos para toda la vida",
       fecha_hora_evento: "13 de junio de 2026 a las 5:00 p.m.",
       lugar: "Casa de los títeres",
+      grupo: "Globo Historias - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_hermanos_para_toda_la_vida_rultvs.png",
       urlEvent:
@@ -420,6 +463,7 @@ const eventos = {
       nombre_evento: "Retazos",
       fecha_hora_evento: "14 de junio de 2026 a las 4:00 p.m.",
       lugar: "Colectivo Teatral Infinito",
+      grupo: "",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_retazos_jwf5c6.png",
       urlEvent:
@@ -429,6 +473,7 @@ const eventos = {
       nombre_evento: "Otro cuento de los hermanos Grimm",
       fecha_hora_evento: "14 de junio de 2026 a las 5:00 p.m.",
       lugar: "Teatro Espacio T",
+      grupo: "El Elenco - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_otro_cuento_de_los_hermanos_grimm_ske5sm.png",
       urlEvent:
