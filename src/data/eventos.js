@@ -55,7 +55,7 @@ const eventos = {
       nombre_evento: "Mujeres en la niebla",
       fecha_hora_evento: "13 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro La Máscara",
-      grupo: "Teatro Estudio TECAL - Calarcá",
+      grupo: "Teatro Estudio TECAL - Bogotá",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_mujer_en_la_niebla_m9ashh.png",
       urlEvent:
