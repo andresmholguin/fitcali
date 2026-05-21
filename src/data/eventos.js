@@ -313,7 +313,7 @@ const eventos = {
       lugar: "Teatro Espacio T",
       grupo: "Elemental Teatro - Medellín",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_incendios_dnchul.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_incendios_dnchul.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-incendios-2932.aspx",
     },
@@ -323,7 +323,7 @@ const eventos = {
       lugar: "Teatro Espacio T",
       grupo: "Elemental Teatro - Medellín",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_incendios_dnchul.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_incendios_dnchul.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-incendios-2938.aspx",
     },
