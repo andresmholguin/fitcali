@@ -369,7 +369,7 @@ const eventos = {
     },
     {
       nombre_evento: "Boca de ceniza",
-      fecha_hora_evento: "9 de junio de 2026 a las 7:30 p.m.",
+      fecha_hora_evento: "9 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatro El Telón",
       grupo: "Aescena - Cali",
       imgUrl:
