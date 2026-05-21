@@ -24,14 +24,15 @@ const eventos = {
       fecha_hora_evento: "6 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro La Máscara",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent: "https://www.colboletos.com/event/fitcali-2026-lobas-2936.aspx",
     },
     {
       nombre_evento: "Ni mierda pal perro",
       fecha_hora_evento: "8 de junio de 2026 a las 6:00 p.m.",
       lugar: "Teatro Esquina Latina",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-ni-mierda-pal-perro-2948.aspx",
     },
     {
       nombre_evento: "Los volcanes no explotan en silencio",
@@ -52,26 +53,20 @@ const eventos = {
   ],
   "Público general": [
     {
-      nombre_evento:
-        "Las armas milagrosas: seis personajes en busca de existencia",
-      fecha_hora_evento: "4 de junio de 2026 a las 7:30 p.m.",
-      lugar: "Teatro Municipal Enrique Buenaventua",
-      imgUrl: "",
-      urlEvent: "",
-    },
-    {
       nombre_evento: "Cementerio de elefantes",
       fecha_hora_evento: "6 de junio de 2026 a las 5:00 p.m.",
       lugar: "Domus Teatro",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-cementerio-de-elefantes-2939.aspx",
     },
     {
       nombre_evento: "Yo no estoy loca",
       fecha_hora_evento: "6 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-yo-no-estoy-loca-2934.aspx",
     },
     {
       nombre_evento:
@@ -79,63 +74,72 @@ const eventos = {
       fecha_hora_evento: "6 de junio de 2026 a las 9:00 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-las-armas-milagrosas-seis-personajes-en-busca-de-existencia-2933.aspx",
     },
     {
       nombre_evento: "Yo no estoy loca",
       fecha_hora_evento: "7 de junio de 2026 a las 5:00 p.m.",
       lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-yo-no-estoy-loca-2941.aspx",
     },
     {
       nombre_evento: "Antígona la necia",
       fecha_hora_evento: "7 de junio de 2026 a las 9:00 p.m.",
       lugar: "Teatro La Máscara",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-antigona-la-necia-2944.aspx",
     },
     {
       nombre_evento: "En la diestra de Dios padre",
       fecha_hora_evento: "8 de junio de 2026 a las 5:00 p.m.",
       lugar: "Casa de los títeres",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-en-la-diestra-de-dios-padre-2946.aspx",
     },
     {
       nombre_evento: "Murmuria",
       fecha_hora_evento: "8 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-murmuria-2947.aspx",
     },
     {
       nombre_evento: "Antígona la necia",
       fecha_hora_evento: "8 de junio de 2026 a las 8:00 p.m.",
       lugar: "Teatro La Máscara",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-antigona-la-necia-2952.aspx",
     },
     {
       nombre_evento: "El evangelio de una patria boba",
       fecha_hora_evento: "9 de junio de 2026 a las 7:00 p.m.",
       lugar: "Casa de los títeres",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-el-evangelio-de-una-patria-boba-2953.aspx",
     },
     {
       nombre_evento: "Vida morte",
       fecha_hora_evento: "9 de junio de 2026 a las 7:30 p.m.",
       lugar: "Cali Teatro",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-vida-morte-2961.aspx",
     },
     {
       nombre_evento: "Habitación Macbeth",
       fecha_hora_evento: "9 de junio de 2026 a las 8:00 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-habitacion-macbeth-2957.aspx",
     },
     {
       nombre_evento: "De retorno al baobab",
@@ -152,7 +156,8 @@ const eventos = {
       lugar: "Teatro Esquina Latina",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779328238/ESCUELA_MIN_r0zvcv.png",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-la-escuela-de-las-mujeres-2962.aspx",
     },
     {
       nombre_evento: "Habitación Macbeth",
@@ -241,70 +246,80 @@ const eventos = {
       fecha_hora_evento: "5 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatro Espacio T",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-incendios-2932.aspx",
     },
     {
       nombre_evento: "Incendios",
       fecha_hora_evento: "6 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatro Espacio T",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-incendios-2938.aspx",
     },
     {
       nombre_evento: "Juicio entre las soombras o la verdad del más allá",
       fecha_hora_evento: "6 de junio de 2026 a las 7:30 p.m.",
       lugar: "Colectivo Teatral Infinito",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-juicio-entre-las-sombras-o-la-verdad-del-mas-alla-2937.aspx",
     },
     {
       nombre_evento: "Tom Tom the Piper´s son",
       fecha_hora_evento: "7 de junio de 2026 a las 6:30 a.m.",
       lugar: "Colectivo Teatral Infinito",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-tom-tom-the-piper-s-son-2942.aspx",
     },
     {
       nombre_evento: "Silencio en el alba",
       fecha_hora_evento: "8 de junio de 2026 a las 5:00 p.m.",
       lugar: "Domus Teatro",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-silencio-en-el-alba-2949.aspx",
     },
     {
       nombre_evento: "Tom Tom the Piper´s son",
       fecha_hora_evento: "8 de junio de 2026 a las 6:30 p.m.",
       lugar: "Colectivo Teatral Infinito",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-tom-tom-the-piper-s-son-2951.aspx",
     },
     {
       nombre_evento: "Boca de ceniza",
       fecha_hora_evento: "9 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro El Telón",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-boca-de-ceniza-2959.aspx",
     },
     {
       nombre_evento: "Las hermanas - poética de una barbarie",
       fecha_hora_evento: "9 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro Espacio T",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-las-hermanas-poetica-de-una-barbarie-2960.aspx",
     },
     {
       nombre_evento: "Corona, ilusión y sangre",
       fecha_hora_evento: "10 de junio de 2026 a las 5:30 p.m.",
       lugar: "Domus Teatro",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-corona-ilusion-y-sangre-2963.aspx",
     },
     {
       nombre_evento: "Las hermanas - poética de una barbarie",
       fecha_hora_evento: "10 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro Espacio T",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-las-hermanas-poetica-de-una-barbarie-2964.aspx",
     },
   ],
   "Teatro infantil y familiar": [
@@ -313,21 +328,24 @@ const eventos = {
       fecha_hora_evento: "6 de junio de 2026 a las 5:00 p.m.",
       lugar: "Teatro Esquina Latina",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-el-flautista-de-las-ratas-2935.aspx",
     },
     {
       nombre_evento: "Crayones",
       fecha_hora_evento: "7 de junio de 2026 a las 11:00 a.m.",
       lugar: "Teatro El Telón",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-crayones-2943.aspx",
     },
     {
       nombre_evento: "De borondo por Cali la sucursal del amor",
       fecha_hora_evento: "7 de junio de 2026 a las 11:00 a.m.",
       lugar: "Teatro del Presagio",
       imgUrl: "",
-      urlEvent: "",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-de-borondo-por-cali-la-sucursal-del-amor-2945.aspx",
     },
     {
       nombre_evento: "De mieles y otros saberes",
