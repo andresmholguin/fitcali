@@ -35,6 +35,15 @@ export default function EventCard({ evento }) {
             <tr>
               <td className="text-center">{evento.lugar}</td>
             </tr>
+            <tr>
+              <td className="table-active text-center">
+                <strong>GRUPO</strong>
+              </td>
+            </tr>
+
+            <tr>
+              <td className="text-center">{evento.grupo}</td>
+            </tr>
           </tbody>
         </table>
 

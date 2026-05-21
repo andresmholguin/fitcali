@@ -4,6 +4,7 @@ const eventos = {
       nombre_evento: "Pas-Ajerx: no se siente aquí",
       fecha_hora_evento: "6 de junio de 2026 a las 7:30 p.m.",
       lugar: "Cali Teatro",
+      grupo: "Eskirla: colectiva maricona interdisciplinar - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779325716/min_1_q4pdrs.png",
       urlEvent:
@@ -13,6 +14,7 @@ const eventos = {
       nombre_evento: "De cara al río",
       fecha_hora_evento: "12 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatro Espacio T",
+      grupo: "Casa Experimental - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779325890/min_de_cara_al_rio_dxlybj.png",
       urlEvent:
