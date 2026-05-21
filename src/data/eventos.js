@@ -28,7 +28,7 @@ const eventos = {
       lugar: "Teatro La Máscara",
       grupo: "Teatro La Máscara - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345513/MINIATURA_lobas_mkf2po.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345513/MINIATURA_lobas_mkf2po.png?v=2",
       urlEvent: "https://www.colboletos.com/event/fitcali-2026-lobas-2936.aspx",
     },
     {
@@ -333,7 +333,7 @@ const eventos = {
       lugar: "Colectivo Teatral Infinito",
       grupo: "Colectivo Teatral Infinito - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345513/MINIATURA_juicio_entre_las_sombras_sjsydt.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345513/MINIATURA_juicio_entre_las_sombras_sjsydt.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-juicio-entre-las-sombras-o-la-verdad-del-mas-alla-2937.aspx",
     },
@@ -417,7 +417,7 @@ const eventos = {
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345513/MINIATURA_el_flautista_de_las_ratas_pkwtl0.png",
       urlEvent:
-        "https://www.colboletos.com/event/fitcali-2026-el-flautista-de-las-ratas-2935.aspx",
+        "https://www.colboletos.com/event/fitcali-2026-el-flautista-de-las-ratas-2935.aspx?v=2",
     },
     {
       nombre_evento: "Crayones",
