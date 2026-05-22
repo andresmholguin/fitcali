@@ -16,7 +16,7 @@ const eventos = {
       lugar: "Teatro Espacio T",
       grupo: "Casa Experiment - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779325890/min_de_cara_al_rio_dxlybj.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779325890/min_de_cara_al_rio_dxlybj.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-de-cara-al-rio-2972.aspx",
     },
@@ -37,7 +37,7 @@ const eventos = {
       lugar: "Teatro Esquina Latina",
       grupo: "Ditirambo Teatro - Bogotá",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345511/MINIATURA_ni_mierda_el_perro_sigrma.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345511/MINIATURA_ni_mierda_el_perro_sigrma.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-ni-mierda-pal-perro-2948.aspx",
     },
@@ -47,7 +47,7 @@ const eventos = {
       lugar: "Teatro esquina Latina",
       grupo: "Compañía teatral Canto de Ballenas - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_los_volcanes_no_explotan_en_silencio_edhmyr.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_los_volcanes_no_explotan_en_silencio_edhmyr.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-los-volcanes-no-explotan-en-silencio-2975.aspx",
     },
@@ -57,7 +57,7 @@ const eventos = {
       lugar: "Teatro La Máscara",
       grupo: "Teatro Estudio TECAL - Bogotá",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_mujer_en_la_niebla_m9ashh.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_mujer_en_la_niebla_m9ashh.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-mujeres-en-la-niebla-2976.aspx",
     },
@@ -70,7 +70,7 @@ const eventos = {
       lugar: "Teatro Municipal Enrique Buenaventua",
       grupo: "Corpo Rastreado - Brasil",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_armas_milagrosas_kdh3yl.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_armas_milagrosas_kdh3yl.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/inauguracion-fitacali-2026-las-armas-milagrosas-seis-personajes-en-busca-de-existencia-2931.aspx",
     },
@@ -80,7 +80,7 @@ const eventos = {
       lugar: "Domus Teatro",
       grupo: "La navaja de Ockham - Bogotá",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345513/MINIATURA_cementerio_de_elefantes_lph4an.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345513/MINIATURA_cementerio_de_elefantes_lph4an.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-cementerio-de-elefantes-2939.aspx",
     },
@@ -101,7 +101,7 @@ const eventos = {
       lugar: "Teatro Municipal Enrique Buenaventua",
       grupo: "Corpo Rastreado - Brasil",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_armas_milagrosas_kdh3yl.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345514/MINIATURA_armas_milagrosas_kdh3yl.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-las-armas-milagrosas-seis-personajes-en-busca-de-existencia-2933.aspx",
     },
@@ -121,7 +121,7 @@ const eventos = {
       lugar: "Teatro La Máscara",
       grupo: "Teatro del bardo - Argentina",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_antigona_la_necia_p5gc2z.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_antigona_la_necia_p5gc2z.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-antigona-la-necia-2944.aspx",
     },
@@ -131,7 +131,7 @@ const eventos = {
       lugar: "Casa de los títeres",
       grupo: "Corporación Teatro de Muñecos La Loca Compañía - Armenia",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345511/MINIATURA_en_la_diestra_de_dios_gx8p5b.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345511/MINIATURA_en_la_diestra_de_dios_gx8p5b.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-en-la-diestra-de-dios-padre-2946.aspx",
     },
@@ -141,7 +141,7 @@ const eventos = {
       lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
       grupo: "Compañía Cortocinesis - Mariquita Tolima",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345511/MINIATURA_murmuria_m1ppwz.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345511/MINIATURA_murmuria_m1ppwz.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-murmuria-2947.aspx",
     },
@@ -151,7 +151,7 @@ const eventos = {
       lugar: "Teatro La Máscara",
       grupo: "Teatro del bardo - Argentina",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_antigona_la_necia_p5gc2z.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_antigona_la_necia_p5gc2z.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-antigona-la-necia-2952.aspx",
     },
@@ -161,7 +161,7 @@ const eventos = {
       lugar: "Casa de los títeres",
       grupo: "Colectivo teatral perro azul - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_el_evangelio_de_una_patria_boba_m76ltu.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_el_evangelio_de_una_patria_boba_m76ltu.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-el-evangelio-de-una-patria-boba-2953.aspx",
     },
@@ -171,7 +171,7 @@ const eventos = {
       lugar: "Cali Teatro",
       grupo: "Colectivo de danza en pié - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_vida_morte_d9ykug.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_vida_morte_d9ykug.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-vida-morte-2961.aspx",
     },
@@ -181,7 +181,7 @@ const eventos = {
       lugar: "Teatro Municipal Enrique Buenaventua",
       grupo: "Pompeyo Audivert - Argentina",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_habitacion_macbeth_msjlos.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_habitacion_macbeth_msjlos.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-habitacion-macbeth-2957.aspx",
     },
@@ -191,7 +191,7 @@ const eventos = {
       lugar: "Cali Teatro",
       grupo: "Compañía artística Caña Flecha - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779328427/de_retorno_al_Baobab_mini_fyme3z.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779328427/de_retorno_al_Baobab_mini_fyme3z.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-de-retorno-al-baobab-2965.aspx",
     },
@@ -201,7 +201,7 @@ const eventos = {
       lugar: "Teatro Esquina Latina",
       grupo: "Maderos Teatro - Valledupar",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779328238/ESCUELA_MIN_r0zvcv.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779328238/ESCUELA_MIN_r0zvcv.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-la-escuela-de-las-mujeres-2962.aspx",
     },
@@ -211,7 +211,7 @@ const eventos = {
       lugar: "Teatro Municipal Enrique Buenaventua",
       grupo: "Pompeyo Audivert - Argentina",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_habitacion_macbeth_msjlos.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_habitacion_macbeth_msjlos.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-habitacion-macbeth-2966.aspx",
     },
@@ -221,7 +221,7 @@ const eventos = {
       lugar: "Casa de los títeres",
       grupo: "Proyecto La Casa - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_la_casa_el_lugar_donde_todo_comienza_ipx9km.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_la_casa_el_lugar_donde_todo_comienza_ipx9km.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-la-casa-el-lugar-donde-todo-comienza-2969.aspx",
     },
@@ -231,7 +231,7 @@ const eventos = {
       lugar: "Colectivo Teatral Infinito",
       grupo: "Oxymorom - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_mas_alla_del_horizonte_zcilqn.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_mas_alla_del_horizonte_zcilqn.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-mas-alla-del-horizonte-2968.aspx",
     },
@@ -241,7 +241,7 @@ const eventos = {
       lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
       grupo: "Corporación cultural Jayeechi - Riohacha",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_ala_ala_y_jayu_azocgx.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_ala_ala_y_jayu_azocgx.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-ala-ala-y-juya-2967.aspx",
     },
@@ -251,7 +251,7 @@ const eventos = {
       lugar: "Cali Teatro",
       grupo: "Teatro La Farola - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_la_felicidad_de_un_kilo_t55z5j.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_la_felicidad_de_un_kilo_t55z5j.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-la-felicidad-en-un-kilo-o-las-voces-que-me-abrazan-2970.aspx",
     },
@@ -261,7 +261,7 @@ const eventos = {
       lugar: "Colectivo Teatral Infinito",
       grupo: "Oxymorom - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_mas_alla_del_horizonte_zcilqn.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_mas_alla_del_horizonte_zcilqn.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-mas-alla-del-horizonte-2971.aspx",
     },
@@ -271,7 +271,7 @@ const eventos = {
       lugar: "Cali Teatro",
       grupo: "Movimiento en colectivo (MEC) - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_gente_de_chonta_hhyx7p.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_gente_de_chonta_hhyx7p.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-gente-de-chonta-2973.aspx",
     },
@@ -281,7 +281,7 @@ const eventos = {
       lugar: "Cali Teatro",
       grupo: "Movimiento en colectivo (MEC) - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_gente_de_chonta_hhyx7p.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345508/MINIATURA_gente_de_chonta_hhyx7p.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-gente-de-chonta-2979.aspx",
     },
@@ -291,7 +291,7 @@ const eventos = {
       lugar: "Teatro Municipal Enrique Buenaventua",
       grupo: "Cabra Teatro y Teatro El Paso - Bolivia - Colombia",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779389649/MINIATURA_solas_en_el_paraiso_estqnj.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779389649/MINIATURA_solas_en_el_paraiso_estqnj.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-solas-en-el-paraiso-2974.aspx",
     },
@@ -301,7 +301,7 @@ const eventos = {
       lugar: "Teatro Municipal Enrique Buenaventua",
       grupo: "Cabra Teatro y Teatro El Paso - Bolivia - Colombia",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779389649/MINIATURA_solas_en_el_paraiso_estqnj.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779389649/MINIATURA_solas_en_el_paraiso_estqnj.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/clausura-fitcali-2026-solas-en-el-paraiso-2980.aspx",
     },
@@ -353,7 +353,7 @@ const eventos = {
       lugar: "Domus Teatro",
       grupo: "Teatro Casa Naranja - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_silencio_en_el_alba_pvjjm9.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_silencio_en_el_alba_pvjjm9.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-silencio-en-el-alba-2949.aspx",
     },
@@ -373,7 +373,7 @@ const eventos = {
       lugar: "Teatro El Telón",
       grupo: "Aescena - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_boca_de_ceniza_c9m1rv.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345510/MINIATURA_boca_de_ceniza_c9m1rv.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-boca-de-ceniza-2959.aspx",
     },
@@ -383,7 +383,7 @@ const eventos = {
       lugar: "Teatro Espacio T",
       grupo: "Corporación Amphitheatrum - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_las_hermanas_poetica_de_una_barbarie_mfxkex.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_las_hermanas_poetica_de_una_barbarie_mfxkex.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-las-hermanas-poetica-de-una-barbarie-2960.aspx",
     },
@@ -393,7 +393,7 @@ const eventos = {
       lugar: "Domus Teatro",
       grupo: "Combustible fósil - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_corona_ilusion_sangre_jhejps.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_corona_ilusion_sangre_jhejps.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-corona-ilusion-y-sangre-2963.aspx",
     },
@@ -403,7 +403,7 @@ const eventos = {
       lugar: "Teatro Espacio T",
       grupo: "Corporación Amphitheatrum - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_las_hermanas_poetica_de_una_barbarie_mfxkex.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345509/MINIATURA_las_hermanas_poetica_de_una_barbarie_mfxkex.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-las-hermanas-poetica-de-una-barbarie-2964.aspx",
     },
@@ -425,7 +425,7 @@ const eventos = {
       lugar: "Teatro El Telón",
       grupo: "Petit Teatro - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_crayones_tslruf.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_crayones_tslruf.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-crayones-2943.aspx",
     },
@@ -435,7 +435,7 @@ const eventos = {
       lugar: "Teatro del Presagio",
       grupo: "Teatro del Presagio - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_de_borondo_por_cali_eqhgqv.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345512/MINIATURA_de_borondo_por_cali_eqhgqv.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-de-borondo-por-cali-la-sucursal-del-amor-2945.aspx",
     },
@@ -445,7 +445,7 @@ const eventos = {
       lugar: "Teatro El Telón",
       grupo: "Tierra # 5 - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_de_mieles_y_otros_sabores_no1ptp.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_de_mieles_y_otros_sabores_no1ptp.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-de-mieles-y-otros-saberes-2978.aspx",
     },
@@ -455,7 +455,7 @@ const eventos = {
       lugar: "Casa de los títeres",
       grupo: "Globo Historias - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_hermanos_para_toda_la_vida_rultvs.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_hermanos_para_toda_la_vida_rultvs.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-hermanos-para-toda-la-vida-2977.aspx",
     },
@@ -465,7 +465,7 @@ const eventos = {
       lugar: "Colectivo Teatral Infinito",
       grupo: "Pazajeros colectivo pedagógico y teatral - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_retazos_jwf5c6.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_retazos_jwf5c6.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-retazos-2981.aspx",
     },
@@ -475,7 +475,7 @@ const eventos = {
       lugar: "Teatro Espacio T",
       grupo: "El Elenco - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_otro_cuento_de_los_hermanos_grimm_ske5sm.png",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/v1779345507/MINIATURA_otro_cuento_de_los_hermanos_grimm_ske5sm.png?v=2",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-otro-cuento-de-los-hermanos-grimm-2982.aspx",
     },
