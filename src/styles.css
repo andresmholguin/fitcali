@@ -24,6 +24,7 @@ body {
 
 .custom-event-card .card-img {
   width: 100%;
+  height: auto;
   display: block;
 }
 

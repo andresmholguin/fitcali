@@ -6,10 +6,12 @@ import FranjaPage from "./pages/FranjaPage";
 function App() {
   return (
     <HashRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/franja/:slug" element={<FranjaPage />} />
-      </Routes>
+      <main id="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/franja/:slug" element={<FranjaPage />} />
+        </Routes>
+      </main>
     </HashRouter>
   );
 }

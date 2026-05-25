@@ -11,6 +11,10 @@ export default function EventCard({ evento }) {
             className="card-img"
             src={evento.imgUrl}
             alt={evento.nombre_evento}
+            width="2953"
+            height="1975"
+            loading="lazy"
+            decoding="async"
           />
         </a>
 
