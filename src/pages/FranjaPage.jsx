@@ -27,7 +27,7 @@ export default function FranjaPage() {
         <div className="container ">
           <nav className="d-flex flex-row justify-content-center align-items-center position-relative  mb-5">
             <a
-              href="/fitcali.colboletos.com"
+              href="/"
               className="btn btn-light position-absolute start-0 gap-2 d-flex flex-row align-items-center"
             >
               <svg
