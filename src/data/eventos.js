@@ -169,7 +169,7 @@ const eventos = {
       nombre_evento: "Vida morte",
       fecha_hora_evento: "9 de junio de 2026 a las 7:30 p.m.",
       lugar: "Cali Teatro",
-      grupo: "Colectivo de danza en pié - Cali",
+      grupo: "Colectivo de Danza En Pie - Cali",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345509/MINIATURA_vida_morte_d9ykug.png?v=3",
       urlEvent:
