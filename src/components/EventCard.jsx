@@ -26,17 +26,19 @@ export default function EventCard({ evento }) {
         </div>
 
         {/* IMAGEN uniforme */}
-        <img
-          className="card-img-top"
-          src={evento.imgUrl}
-          alt={evento.nombre_evento}
-          style={{
-            width: "100%",
-            height: "auto",
-            objectFit: "cover",
-          }}
-          loading="lazy"
-        />
+        <a href={evento.urlEvent}>
+          <img
+            className="card-img-top"
+            src={evento.imgUrl}
+            alt={evento.nombre_evento}
+            style={{
+              width: "100%",
+              height: "auto",
+              objectFit: "cover",
+            }}
+            loading="lazy"
+          />
+        </a>
 
         {/* CONTENIDO */}
         <table className="table custom-event-table mb-0 flex-grow-1">
