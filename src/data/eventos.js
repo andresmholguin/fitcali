@@ -145,7 +145,7 @@ const eventos = {
   "Público general": [
     {
       nombre_evento:
-        "INAUGURACION / LAS ARMAS MILAGROSAS: SEIS PERSONAJES EN BUSCA DE EXISTENCIA",
+        "INAUGURACION / Las armas milagrosas: seis personajes en busca de existencia",
       fecha_hora_evento: "4 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
       grupo: "Corpo Rastreado - Brasil",
