@@ -23,6 +23,16 @@ const eventos = {
   ],
   "Enfoque de género": [
     {
+      nombre_evento: "Yo no estoy loca",
+      fecha_hora_evento: "6 de junio de 2026 a las 7:00 p.m.",
+      lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
+      grupo: "Teatro Petra - Bogotá",
+      imgUrl:
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345514/MINIATURA_yo_no_estoy_loca_bkh3ms.png?v=3",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-yo-no-estoy-loca-2934.aspx",
+    },
+    {
       nombre_evento: "Lobas",
       fecha_hora_evento: "6 de junio de 2026 a las 7:30 p.m.",
       lugar: "Teatro La Máscara",
@@ -30,6 +40,26 @@ const eventos = {
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345513/MINIATURA_lobas_mkf2po.png?v=3",
       urlEvent: "https://www.colboletos.com/event/fitcali-2026-lobas-2936.aspx",
+    },
+    {
+      nombre_evento: "Yo no estoy loca",
+      fecha_hora_evento: "7 de junio de 2026 a las 5:00 p.m.",
+      lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
+      grupo: "Teatro Petra - Bogotá",
+      imgUrl:
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345514/MINIATURA_yo_no_estoy_loca_bkh3ms.png?v=3",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-yo-no-estoy-loca-2941.aspx",
+    },
+    {
+      nombre_evento: "Antígona la necia",
+      fecha_hora_evento: "7 de junio de 2026 a las 9:00 p.m.",
+      lugar: "Teatro La Máscara",
+      grupo: "Teatro del bardo - Argentina",
+      imgUrl:
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345512/MINIATURA_antigona_la_necia_p5gc2z.png?v=3",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-antigona-la-necia-2944.aspx",
     },
     {
       nombre_evento: "Ni mierda pal perro",
@@ -40,6 +70,36 @@ const eventos = {
         "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345511/MINIATURA_ni_mierda_el_perro_sigrma.png?v=3",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-ni-mierda-pal-perro-2948.aspx",
+    },
+    {
+      nombre_evento: "Antígona la necia",
+      fecha_hora_evento: "8 de junio de 2026 a las 8:00 p.m.",
+      lugar: "Teatro La Máscara",
+      grupo: "Teatro del bardo - Argentina",
+      imgUrl:
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345512/MINIATURA_antigona_la_necia_p5gc2z.png?v=3",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-antigona-la-necia-2952.aspx",
+    },
+    {
+      nombre_evento: "La escuela de las mujeres",
+      fecha_hora_evento: "10 de junio de 2026 a las 8:00 p.m.",
+      lugar: "Teatro Esquina Latina",
+      grupo: "Maderos Teatro - Valledupar",
+      imgUrl:
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779328238/ESCUELA_MIN_r0zvcv.png?v=3",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-la-escuela-de-las-mujeres-2962.aspx",
+    },
+    {
+      nombre_evento: "La felicidad en un kilo o las voces que me abrazan",
+      fecha_hora_evento: "11 de junio de 2026 a las 7:30 p.m.",
+      lugar: "Cali Teatro",
+      grupo: "Teatro La Farola - Cali",
+      imgUrl:
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345508/MINIATURA_la_felicidad_de_un_kilo_t55z5j.png?v=3",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-la-felicidad-en-un-kilo-o-las-voces-que-me-abrazan-2970.aspx",
     },
     {
       nombre_evento: "Los volcanes no explotan en silencio",
@@ -60,6 +120,26 @@ const eventos = {
         "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345507/MINIATURA_mujer_en_la_niebla_m9ashh.png?v=3",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-mujeres-en-la-niebla-2976.aspx",
+    },
+    {
+      nombre_evento: "Solas en el paraíso",
+      fecha_hora_evento: "13 de junio de 2026 a las 9:00 p.m.",
+      lugar: "Teatro Municipal Enrique Buenaventua",
+      grupo: "Cabra Teatro y Teatro El Paso - Bolivia - Colombia",
+      imgUrl:
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779389649/MINIATURA_solas_en_el_paraiso_estqnj.png?v=3",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-solas-en-el-paraiso-2974.aspx",
+    },
+    {
+      nombre_evento: "CLAUSURA / Solas en el paraíso",
+      fecha_hora_evento: "14 de junio de 2026 a las 7:30 p.m.",
+      lugar: "Teatro Municipal Enrique Buenaventua",
+      grupo: "Cabra Teatro y Teatro El Paso - Bolivia - Colombia",
+      imgUrl:
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779389649/MINIATURA_solas_en_el_paraiso_estqnj.png?v=3",
+      urlEvent:
+        "https://www.colboletos.com/event/clausura-fitcali-2026-solas-en-el-paraiso-2980.aspx",
     },
   ],
   "Público general": [
@@ -85,16 +165,6 @@ const eventos = {
         "https://www.colboletos.com/event/fitcali-2026-cementerio-de-elefantes-2939.aspx",
     },
     {
-      nombre_evento: "Yo no estoy loca",
-      fecha_hora_evento: "6 de junio de 2026 a las 7:00 p.m.",
-      lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
-      grupo: "Teatro Petra - Bogotá",
-      imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345514/MINIATURA_yo_no_estoy_loca_bkh3ms.png?v=3",
-      urlEvent:
-        "https://www.colboletos.com/event/fitcali-2026-yo-no-estoy-loca-2934.aspx",
-    },
-    {
       nombre_evento:
         "Las armas milagrosas: seis personajes en busca de existencia",
       fecha_hora_evento: "6 de junio de 2026 a las 9:00 p.m.",
@@ -106,24 +176,14 @@ const eventos = {
         "https://www.colboletos.com/event/fitcali-2026-las-armas-milagrosas-seis-personajes-en-busca-de-existencia-2933.aspx",
     },
     {
-      nombre_evento: "Yo no estoy loca",
-      fecha_hora_evento: "7 de junio de 2026 a las 5:00 p.m.",
-      lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
-      grupo: "Teatro Petra - Bogotá",
+      nombre_evento: "Tom Tom the Piper´s son",
+      fecha_hora_evento: "7 de junio de 2026 a las 6:30 p.m.",
+      lugar: "Colectivo Teatral Infinito",
+      grupo: "La SMH Studios - Cali",
       imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345514/MINIATURA_yo_no_estoy_loca_bkh3ms.png?v=3",
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345512/MINIATURA_tom_tom_the_pipers_son_jc6zna.webp",
       urlEvent:
-        "https://www.colboletos.com/event/fitcali-2026-yo-no-estoy-loca-2941.aspx",
-    },
-    {
-      nombre_evento: "Antígona la necia",
-      fecha_hora_evento: "7 de junio de 2026 a las 9:00 p.m.",
-      lugar: "Teatro La Máscara",
-      grupo: "Teatro del bardo - Argentina",
-      imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345512/MINIATURA_antigona_la_necia_p5gc2z.png?v=3",
-      urlEvent:
-        "https://www.colboletos.com/event/fitcali-2026-antigona-la-necia-2944.aspx",
+        "https://www.colboletos.com/event/fitcali-2026-tom-tom-the-piper-s-son-2942.aspx",
     },
     {
       nombre_evento: "En la diestra de Dios padre",
@@ -136,6 +196,16 @@ const eventos = {
         "https://www.colboletos.com/event/fitcali-2026-en-la-diestra-de-dios-padre-2946.aspx",
     },
     {
+      nombre_evento: "Tom Tom the Piper´s son",
+      fecha_hora_evento: "8 de junio de 2026 a las 6:30 p.m.",
+      lugar: "Colectivo Teatral Infinito",
+      grupo: "La SMH Studios - Cali",
+      imgUrl:
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345512/MINIATURA_tom_tom_the_pipers_son_jc6zna.webp",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-tom-tom-the-piper-s-son-2951.aspx",
+    },
+    {
       nombre_evento: "Murmuria",
       fecha_hora_evento: "8 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
@@ -144,16 +214,6 @@ const eventos = {
         "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345511/MINIATURA_murmuria_m1ppwz.png?v=3",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-murmuria-2947.aspx",
-    },
-    {
-      nombre_evento: "Antígona la necia",
-      fecha_hora_evento: "8 de junio de 2026 a las 8:00 p.m.",
-      lugar: "Teatro La Máscara",
-      grupo: "Teatro del bardo - Argentina",
-      imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345512/MINIATURA_antigona_la_necia_p5gc2z.png?v=3",
-      urlEvent:
-        "https://www.colboletos.com/event/fitcali-2026-antigona-la-necia-2952.aspx",
     },
     {
       nombre_evento: "El evangelio de una patria boba",
@@ -196,16 +256,6 @@ const eventos = {
         "https://www.colboletos.com/event/fitcali-2026-de-retorno-al-baobab-2965.aspx",
     },
     {
-      nombre_evento: "La escuela de las mujeres",
-      fecha_hora_evento: "10 de junio de 2026 a las 8:00 p.m.",
-      lugar: "Teatro Esquina Latina",
-      grupo: "Maderos Teatro - Valledupar",
-      imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779328238/ESCUELA_MIN_r0zvcv.png?v=3",
-      urlEvent:
-        "https://www.colboletos.com/event/fitcali-2026-la-escuela-de-las-mujeres-2962.aspx",
-    },
-    {
       nombre_evento: "Habitación Macbeth",
       fecha_hora_evento: "11 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatro Municipal Enrique Buenaventua",
@@ -225,16 +275,7 @@ const eventos = {
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-la-casa-el-lugar-donde-todo-comienza-2969.aspx",
     },
-    {
-      nombre_evento: "Más allá del horizonte",
-      fecha_hora_evento: "11 de junio de 2026 a las 7:00 p.m.",
-      lugar: "Colectivo Teatral Infinito",
-      grupo: "Oxymoron - Cali",
-      imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345508/MINIATURA_mas_alla_del_horizonte_zcilqn.png?v=3",
-      urlEvent:
-        "https://www.colboletos.com/event/fitcali-2026-mas-alla-del-horizonte-2968.aspx",
-    },
+
     {
       nombre_evento: "Ala´ala Y Juya",
       fecha_hora_evento: "11 de junio de 2026 a las 7:30 p.m.",
@@ -244,26 +285,6 @@ const eventos = {
         "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345509/MINIATURA_ala_ala_y_jayu_azocgx.png?v=3",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-ala-ala-y-juya-2967.aspx",
-    },
-    {
-      nombre_evento: "La felicidad en un kilo o las voces que me abrazan",
-      fecha_hora_evento: "11 de junio de 2026 a las 7:30 p.m.",
-      lugar: "Cali Teatro",
-      grupo: "Teatro La Farola - Cali",
-      imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345508/MINIATURA_la_felicidad_de_un_kilo_t55z5j.png?v=3",
-      urlEvent:
-        "https://www.colboletos.com/event/fitcali-2026-la-felicidad-en-un-kilo-o-las-voces-que-me-abrazan-2970.aspx",
-    },
-    {
-      nombre_evento: "Más allá del horizonte",
-      fecha_hora_evento: "12 de junio de 2026 a las 7:00 p.m.",
-      lugar: "Colectivo Teatral Infinito",
-      grupo: "Oxymoron - Cali",
-      imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345508/MINIATURA_mas_alla_del_horizonte_zcilqn.png?v=3",
-      urlEvent:
-        "https://www.colboletos.com/event/fitcali-2026-mas-alla-del-horizonte-2971.aspx",
     },
     {
       nombre_evento: "Gente de Chonta",
@@ -284,26 +305,6 @@ const eventos = {
         "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345508/MINIATURA_gente_de_chonta_hhyx7p.png?v=3",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-gente-de-chonta-2979.aspx",
-    },
-    {
-      nombre_evento: "Solas en el paraíso",
-      fecha_hora_evento: "13 de junio de 2026 a las 9:00 p.m.",
-      lugar: "Teatro Municipal Enrique Buenaventua",
-      grupo: "Cabra Teatro y Teatro El Paso - Bolivia - Colombia",
-      imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779389649/MINIATURA_solas_en_el_paraiso_estqnj.png?v=3",
-      urlEvent:
-        "https://www.colboletos.com/event/fitcali-2026-solas-en-el-paraiso-2974.aspx",
-    },
-    {
-      nombre_evento: "CLAUSURA / Solas en el paraíso",
-      fecha_hora_evento: "14 de junio de 2026 a las 7:30 p.m.",
-      lugar: "Teatro Municipal Enrique Buenaventua",
-      grupo: "Cabra Teatro y Teatro El Paso - Bolivia - Colombia",
-      imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779389649/MINIATURA_solas_en_el_paraiso_estqnj.png?v=3",
-      urlEvent:
-        "https://www.colboletos.com/event/clausura-fitcali-2026-solas-en-el-paraiso-2980.aspx",
     },
   ],
   "Públicos especializados": [
@@ -338,16 +339,6 @@ const eventos = {
         "https://www.colboletos.com/event/fitcali-2026-juicio-entre-las-sombras-o-la-verdad-del-mas-alla-2937.aspx",
     },
     {
-      nombre_evento: "Tom Tom the Piper´s son",
-      fecha_hora_evento: "7 de junio de 2026 a las 6:30 p.m.",
-      lugar: "Colectivo Teatral Infinito",
-      grupo: "La SMH Studios - Cali",
-      imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345512/MINIATURA_tom_tom_the_pipers_son_jc6zna.webp",
-      urlEvent:
-        "https://www.colboletos.com/event/fitcali-2026-tom-tom-the-piper-s-son-2942.aspx",
-    },
-    {
       nombre_evento: "Silencio en el alba",
       fecha_hora_evento: "8 de junio de 2026 a las 5:00 p.m.",
       lugar: "Domus Teatro",
@@ -356,16 +347,6 @@ const eventos = {
         "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345510/MINIATURA_silencio_en_el_alba_pvjjm9.png?v=3",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-silencio-en-el-alba-2949.aspx",
-    },
-    {
-      nombre_evento: "Tom Tom the Piper´s son",
-      fecha_hora_evento: "8 de junio de 2026 a las 6:30 p.m.",
-      lugar: "Colectivo Teatral Infinito",
-      grupo: "La SMH Studios - Cali",
-      imgUrl:
-        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345512/MINIATURA_tom_tom_the_pipers_son_jc6zna.webp",
-      urlEvent:
-        "https://www.colboletos.com/event/fitcali-2026-tom-tom-the-piper-s-son-2951.aspx",
     },
     {
       nombre_evento: "Boca de ceniza",
@@ -406,6 +387,26 @@ const eventos = {
         "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345509/MINIATURA_las_hermanas_poetica_de_una_barbarie_mfxkex.png?v=3",
       urlEvent:
         "https://www.colboletos.com/event/fitcali-2026-las-hermanas-poetica-de-una-barbarie-2964.aspx",
+    },
+    {
+      nombre_evento: "Más allá del horizonte",
+      fecha_hora_evento: "11 de junio de 2026 a las 7:00 p.m.",
+      lugar: "Colectivo Teatral Infinito",
+      grupo: "Oxymoron - Cali",
+      imgUrl:
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345508/MINIATURA_mas_alla_del_horizonte_zcilqn.png?v=3",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-mas-alla-del-horizonte-2968.aspx",
+    },
+    {
+      nombre_evento: "Más allá del horizonte",
+      fecha_hora_evento: "12 de junio de 2026 a las 7:00 p.m.",
+      lugar: "Colectivo Teatral Infinito",
+      grupo: "Oxymoron - Cali",
+      imgUrl:
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345508/MINIATURA_mas_alla_del_horizonte_zcilqn.png?v=3",
+      urlEvent:
+        "https://www.colboletos.com/event/fitcali-2026-mas-alla-del-horizonte-2971.aspx",
     },
   ],
   "Teatro infantil y familiar": [
