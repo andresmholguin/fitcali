@@ -143,17 +143,17 @@ const eventos = {
     },
   ],
   "Público general": [
-    // {
-    //   nombre_evento:
-    //     "INAUGURACION / Las armas milagrosas: seis personajes en busca de existencia",
-    //   fecha_hora_evento: "4 de junio de 2026 a las 7:30 p.m.",
-    //   lugar: "Teatro Municipal Enrique Buenaventua",
-    //   grupo: "Corpo Rastreado - Brasil",
-    //   imgUrl:
-    //     "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345514/MINIATURA_armas_milagrosas_kdh3yl.png?v=3",
-    //   urlEvent:
-    //     "https://www.colboletos.com/event/inauguracion-fitacali-2026-las-armas-milagrosas-seis-personajes-en-busca-de-existencia-2931.aspx",
-    // },
+    {
+      nombre_evento:
+        "INAUGURACION / Las armas milagrosas: seis personajes en busca de existencia",
+      fecha_hora_evento: "4 de junio de 2026 a las 7:30 p.m.",
+      lugar: "Teatro Municipal Enrique Buenaventua",
+      grupo: "Corpo Rastreado - Brasil",
+      imgUrl:
+        "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345514/MINIATURA_armas_milagrosas_kdh3yl.png?v=3",
+      urlEvent:
+        "https://www.colboletos.com/event/inauguracion-fitacali-2026-las-armas-milagrosas-seis-personajes-en-busca-de-existencia-2931.aspx",
+    },
     {
       nombre_evento: "Cementerio de elefantes",
       fecha_hora_evento: "6 de junio de 2026 a las 5:00 p.m.",
