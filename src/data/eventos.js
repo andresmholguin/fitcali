@@ -209,7 +209,7 @@ const eventos = {
       nombre_evento: "Murmuria",
       fecha_hora_evento: "8 de junio de 2026 a las 7:00 p.m.",
       lugar: "Teatrino Teatro Municipal Enrique Buenaventura",
-      grupo: "Compañía Cortocinesis - Mariquita Tolima",
+      grupo: "Compañía Cortocinesis - Bogotá",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779345511/MINIATURA_murmuria_m1ppwz.png?v=3",
       urlEvent:
