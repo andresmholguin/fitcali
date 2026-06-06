@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import eventos from "../data/eventos";
 import Navbar from "../components/Navbar";
 import EventCard from "../components/EventCard";
+import { parseEventDate, isBeforeTodayInBogota } from "../utils/dateParser";
 
 export default function FranjaPage() {
   const { slug } = useParams();
@@ -20,7 +21,15 @@ export default function FranjaPage() {
   });
 
   const eventosFiltrados = useMemo(() => {
-    const eventosFranja = eventos[franja] || [];
+    let eventosFranja = eventos[franja] || [];
+
+    // Filter out events from previous days (GMT-5 Bogotá)
+    const now = new Date();
+    eventosFranja = eventosFranja.filter((evento) => {
+      const eventDate = parseEventDate(evento.fecha_hora_evento);
+      return !isBeforeTodayInBogota(eventDate, now);
+    });
+
     if (!search.trim()) return eventosFranja;
 
     return eventosFranja.filter((evento) =>
