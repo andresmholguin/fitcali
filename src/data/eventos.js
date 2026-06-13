@@ -138,8 +138,8 @@ const eventos = {
       grupo: "Cabra Teatro y Teatro El Paso - Bolivia - Colombia",
       imgUrl:
         "https://res.cloudinary.com/dyxdoanm5/image/upload/c_fill,f_auto,w_800,q_auto/v1779389649/MINIATURA_solas_en_el_paraiso_estqnj.png?v=3",
-      urlEvent:
-        "https://www.colboletos.com/event/clausura-fitcali-2026-solas-en-el-paraiso-2980.aspx",
+      // urlEvent:
+      //   "https://www.colboletos.com/event/clausura-fitcali-2026-solas-en-el-paraiso-2980.aspx",
     },
   ],
   "Público general": [
